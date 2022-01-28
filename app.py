@@ -14,8 +14,6 @@ Please choose an option:
 Your selection:
 '''
 
-
-
 def menu():
     conn = db.connect()
     db.create_table(conn)
